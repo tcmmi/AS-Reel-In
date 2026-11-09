@@ -1,11 +1,11 @@
 {
   "$schema": "https://raw.githubusercontent.com/tcmmi/AutoScene/main/crates/as-plugin/schema/plugin.schema.json",
   "manifestVersion": 2,
-  "id": "dev.autoscene.reel-in",
+  "id": "io.github.tcmmi.reel-in",
   "version": "1.0.0",
   "name": "Reel In",
   "description": "Add YouTube and TikTok videos to a project by their links, in the quality you choose. Uses yt-dlp, and AutoScene's FFmpeg to join video and sound.",
-  "author": { "name": "AutoScene", "url": "https://github.com/tcmmi/AutoScene" },
+  "author": { "name": "tcmmi", "url": "https://github.com/tcmmi" },
   "repository": "https://github.com/tcmmi/AS-Reel-In",
   "engines": { "autoscene": ">=1.0.6, <2", "protocol": 2 },
   "runtime": {
